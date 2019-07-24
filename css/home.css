@@ -1,0 +1,31 @@
+﻿.frontimg {
+    max-width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+
+#alert2{
+    display: none;
+}
+
+.footer {
+    background-color: lightgray;
+}
+
+.footer .copyright {
+    font-weight: lighter;
+    text-align: left;
+}
+
+.footer .kontakt {
+    font-weight: lighter;
+    text-align: right;
+}
+
+.card-img-top {
+    
+}
+
+nav {
+    border-bottom: 2px thin black;
+}

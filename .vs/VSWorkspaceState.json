@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\css",
+    "\\images",
+    "\\javascript",
     "\\_includes"
   ],
-  "SelectedNode": "\\_config.yml",
+  "SelectedNode": "\\javascript\\home.js",
   "PreviewInSolutionExplorer": false
 }

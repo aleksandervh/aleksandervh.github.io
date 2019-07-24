@@ -1,37 +1,82 @@
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/home.css" />
+    <script src="https://kit.fontawesome.com/a5ce8c0b05.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 </head>
 
-<body class="text-center" data-gr-c-s-loaded="true">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <header class="masthead mb-auto">
-            <div class="inner">
-                <a class="navbar-brand" href="#">
-                    <img src="_includes/foretak_black.png" width="100" height="100" alt="">
-                </a>
-                <nav class="nav nav-masthead justify-content-center">
-                    <a class="nav-link active" href="#">Heim</a>
-                    <a class="nav-link" href="#">Galleri</a>
-                    <a class="nav-link" href="#">Kontakt oss</a>
-                </nav>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-2">
+        <a class="navbar-brand" href="#">Aleksander Vae Haaland</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Features</a>
+                <a class="nav-item nav-link" href="#">Gallery</a>
+                <a class="nav-item nav-link disabled" href="#">Cooming soon</a>
             </div>
-        </header>
+        </div>
+    </nav>
 
-        <main role="main" class="inner cover">
-            <h1 class="display-4">Lyd, lys og foto</h1>
-            <p class="lead">AVH Aleksander Vae Haaland driver med lydteknikk, enkel lysteknikk og enkel fotografering. Haaland har ein stor interesse innen desse områdene er og gla i å ta ein liten utfordring.</p>
-            <p class="lead">
-                <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-            </p>
-        </main>
-
-        <footer class="mastfoot mt-auto">
-            <div class="inner">
-                <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 alert alert-warning alert-dismissible fade show" role="alert" id="alert1">
+                <strong>Hei du!</strong> Eg trur du har gått deg vill...
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close" id="closeAlert1">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
-        </footer>
+
+            <div class=" col-12 alert alert-danger" role="alert" id="alert2">
+                <strong>EY!</strong> Eg sa du hadde gått deg vil!
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 jumbotron">
+                <h2 class="display-4">Velkommen?</h2>
+                <p style="font-weight: 600;">Dette er en testside for utvikling av bootstrap apper. Her vil alle slags type komponenter bli tatt i brukt for å teste fleksibiliteten til koden. Alt du ser her er diktet opp og bare tullball. Anyway, velkommen skal du være.</p>
+                <hr class="my-2" />
+                <p>Om du har klart å ende opp på denne siden ved eit uhell, vil eg anbefale deg å ta turen ein anna plass. Her er det absolutt ingenting fornuftig å finne. Så gå på <a href="https://vg.no">VG.no</a> eller noko slikt.</p>
+            </div>
+        </div>
+
+        <div class="row justify-content-around">
+            <div class="col-5 card" style="width: 18rem;">
+                <img src="images/AVH_6873.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card 1</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="col-5 card" style="width: 18rem;">
+                <img src="images/AVH_3214.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Card 2</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere else</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer fixed-bottom">
+        <div class="row my-1">
+            <h6 class="col-6 copyright pl-4">© Some nonsense copyright claim - <strong>2019</strong></h6>
+            <h6 class="col-6 kontakt pr-4">Kontakt oss på tlf.nr: <strong>1881</strong></h6>
+        </div>
     </div>
 
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="javascript/home.js"></script>
 </body>
