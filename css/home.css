@@ -1,11 +1,14 @@
-﻿.frontimg {
-    max-width: 100%;
-    height: auto;
-    margin-top: 5px;
+﻿.nav {
+    border-bottom: 2px thin black;
 }
 
 #alert2{
     display: none;
+}
+
+.card-img-top{
+    width: 100%;
+    object-fit: cover;
 }
 
 .footer {
@@ -22,10 +25,3 @@
     text-align: right;
 }
 
-.card-img-top {
-    
-}
-
-nav {
-    border-bottom: 2px thin black;
-}
